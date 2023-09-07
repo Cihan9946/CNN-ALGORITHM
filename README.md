@@ -37,3 +37,20 @@ Kedi ve köpekleri ayırma gibi uygulamalarda, etik sorumlulukları unutmamalıs
 
 Bu eklemelerle yazıyı daha kapsamlı hale getirdik. Bu adımları takip ederek kedi ve köpekleri ayırmak için bir CNN oluştururken daha iyi sonuçlar elde etme şansınız artacaktır.
 
+13. Ağın Derinliği ve Karmaşıklığı
+Modelinizin ağ derinliği ve karmaşıklığı, performansı üzerinde büyük bir etkiye sahip olabilir. Daha derin ve karmaşık ağlar daha fazla özellik öğrenme yeteneğine sahip olabilir, ancak daha fazla hesaplama kaynağı gerektirebilir. Bu nedenle, modelinizi tasarlarken ağın derinliği ve karmaşıklığını dikkatlice düşünmelisiniz.
+
+14. Regülarizasyon ve Optimizasyon
+Aşırı uyuma (overfitting) karşı korunmak için regülarizasyon tekniklerini kullanabilirsiniz. Bırakma (dropout) ve L2 düzenlemesi gibi teknikler, modelinizin daha iyi genelleme yapmasına yardımcı olabilir. Ayrıca, farklı optimizasyon algoritmalarını deneyerek modelinizi daha hızlı eğitebilir ve daha iyi sonuçlar elde edebilirsiniz.
+
+15. Donma ve Özellik Çıkarma
+Transfer öğrenme kullanırken, önceden eğitilmiş modelin bazı katmanlarını dondurarak (trainable=False) ve sadece son katmanları kendi veri setinize uyarlayarak başlayabilirsiniz. Bu, eğitim sürecini hızlandırabilir ve daha az veri gerektirebilir. Ayrıca, önceden eğitilmiş modelin her katmanından çıkarılan özellikleri kullanarak yeni bir model oluşturabilirsiniz. Bu, daha düşük boyutlu özellik vektörlerini kullanarak eğitim sürecini hızlandırabilir ve daha az bellek kullanabilir.
+
+16. Modelin İzlenmesi ve Hata Analizi
+Modelinizi eğitirken ve doğrularken kayıp fonksiyonunu ve başarı metriklerini düzenli olarak izlemelisiniz. Ayrıca yanlış sınıflandırılmış örnekleri inceleyerek modelinizin hatalarını anlamaya çalışmalısınız. Hata analizi yaparak, modelinizi belirli zorlu örnekler üzerinde daha iyi hale getirebilirsiniz.
+
+17. Sonuç ve Gelecek İş
+Sonuç olarak, modelinizin başarıyla kedi ve köpekleri ayırdığını umuyoruz. Bu modeli daha geniş veri setleri veya gerçek dünya uygulamaları için genişletmek ve geliştirmek isteyebilirsiniz. Ayrıca, transfer öğrenme veya hızlandırma tekniklerini kullanarak modelinizi daha hızlı ve verimli hale getirebilirsiniz.
+
+Bu eklemelerle yazıyı daha kapsamlı hale getirdik. Bu adımları takip ederek kedi ve köpekleri ayırmak için bir CNN oluştururken daha iyi sonuçlar elde etme şansınız artacaktır.
+
