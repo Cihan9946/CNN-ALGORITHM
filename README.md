@@ -34,7 +34,6 @@ Modelinizi değerlendirmek için sonuçları görselleştirmek önemlidir. Başa
 
 11. Etik Sorumluluklar
 Kedi ve köpekleri ayırma gibi uygulamalarda, etik sorumlulukları unutmamalısınız. Veri gizliliği, veri kullanımı ve modelinizin olası yanlılık sorunları hakkında düşünmelisiniz. Ayrıca, modelinizi oluştururken ve kullanırken etik kurallara ve düzenlemelere uymalısınız.
-
 Bu eklemelerle yazıyı daha kapsamlı hale getirdik. Bu adımları takip ederek kedi ve köpekleri ayırmak için bir CNN oluştururken daha iyi sonuçlar elde etme şansınız artacaktır.
 
 13. Ağın Derinliği ve Karmaşıklığı
@@ -51,6 +50,5 @@ Modelinizi eğitirken ve doğrularken kayıp fonksiyonunu ve başarı metrikleri
 
 17. Sonuç ve Gelecek İş
 Sonuç olarak, modelinizin başarıyla kedi ve köpekleri ayırdığını umuyoruz. Bu modeli daha geniş veri setleri veya gerçek dünya uygulamaları için genişletmek ve geliştirmek isteyebilirsiniz. Ayrıca, transfer öğrenme veya hızlandırma tekniklerini kullanarak modelinizi daha hızlı ve verimli hale getirebilirsiniz.
-
 Bu eklemelerle yazıyı daha kapsamlı hale getirdik. Bu adımları takip ederek kedi ve köpekleri ayırmak için bir CNN oluştururken daha iyi sonuçlar elde etme şansınız artacaktır.
 
