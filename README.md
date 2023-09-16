@@ -1,5 +1,5 @@
-# CNN-ALGORITHM
-https://www.kaggle.com/code/mustafacihanncr/cat-dog-clasification
+    # CNN-ALGORITHM
+    https://www.kaggle.com/code/mustafacihanncr/cat-dog-clasification
 
 
 1. Veri Seti ve Ön İşleme
