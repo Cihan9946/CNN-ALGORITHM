@@ -3,11 +3,9 @@ from tensorflow import keras
 from keras import Sequential
 from keras.layers import Dense, Conv2D, MaxPooling2D, Flatten
 
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-
 
 ds_train = tf.keras.utils.image_dataset_from_directory(
     directory = '/kaggle/input/dogs-vs-cats/train',
