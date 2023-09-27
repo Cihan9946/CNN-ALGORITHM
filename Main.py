@@ -59,19 +59,15 @@ model1.compile(optimizer='adam',loss='binary_crossentropy',metrics =['accuracy']
 history = model1.fit(ds_train,epochs=10,validation_data=ds_valid)
 
 
-
 plt.plot(history.history['accuracy'],color='red',label='train')
 plt.plot(history.history['val_accuracy'],color='blue',label='validation')
 plt.legend()
 plt.show()
 
 
-
-
 import cv2
 teh1 = cv2.imread('/kaggle/input/dogs-vs-cats/test/cats/cat.10188.jpg')
 plt.imshow(teh1)
-
 
 
 print(teh1.shape)
@@ -87,6 +83,3 @@ if out1>0.5:
 else:
     print("It's a cat!")
 
-
-
-    
