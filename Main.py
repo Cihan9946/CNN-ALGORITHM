@@ -16,7 +16,6 @@ ds_train = tf.keras.utils.image_dataset_from_directory(
     image_size=(256, 256),
 )
 
-
 ds_valid = tf.keras.utils.image_dataset_from_directory(
     directory = '/kaggle/input/dogs-vs-cats/test',
     labels='inferred',
