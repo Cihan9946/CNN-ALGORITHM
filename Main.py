@@ -77,11 +77,9 @@ teh1 = cv2.resize(teh1,(256,256)) #Resizing to 256x256
 teh1_in = teh1.reshape((1,256,256,3))
 
 
-
 out1 = model1.predict(teh1_in)
 print(out1)
 if out1>0.5:
     print("It's a dog!")
 else:
     print("It's a cat!")
-
