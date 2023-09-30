@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
 ds_train = tf.keras.utils.image_dataset_from_directory(
     directory = '/kaggle/input/dogs-vs-cats/train',
     labels='inferred',
@@ -15,6 +16,7 @@ ds_train = tf.keras.utils.image_dataset_from_directory(
     batch_size=32,
     image_size=(256, 256),
 )
+
 
 ds_valid = tf.keras.utils.image_dataset_from_directory(
     directory = '/kaggle/input/dogs-vs-cats/test',
