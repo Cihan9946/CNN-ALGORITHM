@@ -1,7 +1,6 @@
 # CNN-ALGORITHM
 https://www.kaggle.com/code/mustafacihanncr/cat-dog-clasification
 
-
 1. Veri Seti ve Ön İşleme
 Kedi ve köpekleri ayırmak için uygun bir veri kümesi seçmek önemlidir. Genellikle Kaggle gibi kaynaklardan büyük ve çeşitli bir veri kümesi kullanılır. Veri kümesini indirdikten sonra, resimleri ön işleme tabi tutmanız gerekebilir. Ön işleme adımları arasında resim boyutlarını yeniden şekillendirme, normalizasyon ve veri artırma gibi işlemler bulunabilir.
 
