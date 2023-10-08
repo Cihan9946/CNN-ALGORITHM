@@ -52,6 +52,7 @@ Transfer öğrenme kullanırken, önceden eğitilmiş modelin bazı katmanların
 16. Modelin İzlenmesi ve Hata Analizi
 Modelinizi eğitirken ve doğrularken kayıp fonksiyonunu ve başarı metriklerini düzenli olarak izlemelisiniz. Ayrıca yanlış sınıflandırılmış örnekleri inceleyerek modelinizin hatalarını anlamaya çalışmalısınız. Hata analizi yaparak, modelinizi belirli zorlu örnekler üzerinde daha iyi hale getirebilirsiniz.
 
+
 17. Sonuç ve Gelecek İş
 Sonuç olarak, modelinizin başarıyla kedi ve köpekleri ayırdığını umuyoruz. Bu modeli daha geniş veri setleri veya gerçek dünya uygulamaları için genişletmek ve geliştirmek isteyebilirsiniz. Ayrıca, transfer öğrenme veya hızlandırma tekniklerini kullanarak modelinizi daha hızlı ve verimli hale getirebilirsiniz.
 Bu eklemelerle yazıyı daha kapsamlı hale getirdik. Bu adımları takip ederek kedi ve köpekleri ayırmak için bir CNN oluştururken daha iyi sonuçlar elde etme şansınız artacaktır.
