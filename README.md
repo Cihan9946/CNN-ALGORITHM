@@ -4,17 +4,22 @@ https://www.kaggle.com/code/mustafacihanncr/cat-dog-clasification
 1. Veri Seti ve Ön İşleme
 Kedi ve köpekleri ayırmak için uygun bir veri kümesi seçmek önemlidir. Genellikle Kaggle gibi kaynaklardan büyük ve çeşitli bir veri kümesi kullanılır. Veri kümesini indirdikten sonra, resimleri ön işleme tabi tutmanız gerekebilir. Ön işleme adımları arasında resim boyutlarını yeniden şekillendirme, normalizasyon ve veri artırma gibi işlemler bulunabilir.
 
+
 2. Veri Etiketleme ve Veri Düzenleme
 Veri setinizdeki her resmin doğru bir şekilde etiketlendiğinden emin olmalısınız. Veri setinde yanlış etiketlenmiş veya eksik veriler olabileceğinden, bu tür hataları düzeltmek için zaman ayırmalısınız. Ayrıca, dengesiz sınıflarla başa çıkmak için veri düzenlemesi yapabilirsiniz.
+
 
 3. Veri Artırma (Data Augmentation)
 Veri setinizdeki çeşitliliği artırmak ve modelinizin daha iyi genelleme yapmasını sağlamak için veri artırma tekniklerini kullanabilirsiniz. Örneğin, resimleri rastgele döndürme, yansıtma, kesme veya parlaklık değiştirme gibi işlemlerle çeşitlendirebilirsiniz. Bu, modelinizin yeni verilere daha iyi adapte olmasına yardımcı olur.
 
+
 4. Model Mimarisi
 CNN'nin temel öğelerinden biri, katmanlarının mimarisi ve yapılandırılmasıdır. Modelinizi oluştururken kaç tane evrişimli katman, havuzlama katmanı ve tam bağlı katman kullanmanız gerektiğini düşünmelisiniz. Ayrıca, hangi aktivasyon fonksiyonlarını, kayıp fonksiyonlarını ve optimizasyon algoritmalarını kullanacağınıza da karar vermelisiniz. Modelinizin karmaşıklığı, kullanılabilir kaynaklara ve veri kümesinin boyutuna bağlı olacaktır.
 
+
 5. Eğitim ve Doğrulama
 Modelinizi oluşturduktan sonra, eğitim ve doğrulama aşamalarına geçmelisiniz. Veri setini eğitim ve doğrulama kümelerine bölmeli ve modelinizi eğitmek için eğitim verilerini kullanmalısınız. Eğitim sırasında kayıp fonksiyonunu izleyerek ve doğrulama verilerini kullanarak modelinizi değerlendirmelisiniz. Modelinizin aşırı uyuma önlemek için düzenleme tekniklerini (örneğin, bırakma) uygulayabilirsiniz.
+
 
 6. Hiperparametre Ayarlaması
 Modelinizin performansını artırmak için hiperparametre ayarlaması yapmanız gerekebilir. Örneğin, öğrenme oranı, toplu boyut, epoch sayısı gibi hiperparametreleri dikkatli bir şekilde ayarlayarak modelinizin daha iyi sonuçlar vermesini sağlayabilirsiniz.
