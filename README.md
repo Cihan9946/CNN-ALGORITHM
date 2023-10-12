@@ -4,10 +4,8 @@ https://www.kaggle.com/code/mustafacihanncr/cat-dog-clasification
 1. Veri Seti ve Ön İşleme
 Kedi ve köpekleri ayırmak için uygun bir veri kümesi seçmek önemlidir. Genellikle Kaggle gibi kaynaklardan büyük ve çeşitli bir veri kümesi kullanılır. Veri kümesini indirdikten sonra, resimleri ön işleme tabi tutmanız gerekebilir. Ön işleme adımları arasında resim boyutlarını yeniden şekillendirme, normalizasyon ve veri artırma gibi işlemler bulunabilir.
 
-
 2. Veri Etiketleme ve Veri Düzenleme
 Veri setinizdeki her resmin doğru bir şekilde etiketlendiğinden emin olmalısınız. Veri setinde yanlış etiketlenmiş veya eksik veriler olabileceğinden, bu tür hataları düzeltmek için zaman ayırmalısınız. Ayrıca, dengesiz sınıflarla başa çıkmak için veri düzenlemesi yapabilirsiniz.
-
 
 3. Veri Artırma (Data Augmentation)
 Veri setinizdeki çeşitliliği artırmak ve modelinizin daha iyi genelleme yapmasını sağlamak için veri artırma tekniklerini kullanabilirsiniz. Örneğin, resimleri rastgele döndürme, yansıtma, kesme veya parlaklık değiştirme gibi işlemlerle çeşitlendirebilirsiniz. Bu, modelinizin yeni verilere daha iyi adapte olmasına yardımcı olur.
